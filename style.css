@@ -1,0 +1,36 @@
+header{
+    margin: 20px 100px;
+}
+nav>ul li{
+    list-style: none;
+    padding-right: 50px;
+}
+
+nav>ul li>a{
+    text-decoration: none;
+    color: black;
+}
+nav>ul{
+    display: flex;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bars>a i{
+    display: none;
+}
+.hide>a{
+    display: block;
+    
+}
+@media screen and (max-width:600px){
+    .bars>a i{
+        display: block;
+    }
+    .hide>a{
+        display: none;
+        
+    }
+}
