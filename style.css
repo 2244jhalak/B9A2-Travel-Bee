@@ -98,9 +98,238 @@ font-weight: 700;
 line-height: normal;
 border: 0;
 }
+.popular{
+    display: flex;
+    align-items: center;
+}
+.popular-description{
+    width: 577px;
+    margin: 10px 100px;
+}
+.popular-description h3{
+    color: #131318;
+
+font-family: Mulish;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.popular-description p{
+    color: rgba(19, 19, 24, 0.70);
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; 
+}
+.popular-description>ul li{
+    color: rgba(19, 19, 24, 0.70);
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; 
+}
+.popular-image img{
+   height: 400px;
+   width: 420px;
+   border-radius: 15px;
+   margin-left: 35px;
+   margin-top: 40px;
+}
+.btn-read{
+    border: 0;
+    width: 174px;
+height: 52px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #FF5400;
+color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.choose h3{
+    text-align: center;
+}
+.choose p{
+    text-align: center;
+}
+.choose-img-section{
+    margin-left: 0px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.row1{
+    display: flex;
+    margin: 5px 95px;
+    
+}
+.img1{
+    margin-right: 10px;
+    position: relative;
+}
+
+.img1 h3{
+    position: absolute;
+    
+    top: 110px;
+    left: 230px;
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 28px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.img2{
+    margin-right: 0px;
+    position: relative;
+}
+.img2 h3{
+    position: absolute;
+    
+    top: 110px;
+    left: 230px;
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 28px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+
+.img1 img{
+    width: 561px;
+    height: 300px;
+}
+.img2 img{
+    width: 561px;
+    height: 300px;
+}
+.row2{
+    display: flex;
+    margin: 5px 90px;
+    
+}
+.row3{
+    display: flex;
+    margin: 5px 89px;
+}
+.img7{
+    margin-right: 10px;
+    
+    position: relative;
+}
+.img7 img{
+    width: 470px;
+    height: 300px;
+}
+.img7 h3{
+    position: absolute;
+    
+    top: 110px;
+    left: 170px;
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 28px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.img6{
+    
+    position: relative;
+    margin-right: 0px;
+}
+.img6 img{
+    width: 666px;
+    height: 300px;
+}
+.img6 h3{
+    position: absolute;
+    
+    top: 110px;
+    left: 250px;
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 28px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.img3{
+    margin-right: 5px;
+    position: relative;
+}
+.img3 h3{
+    position: absolute;
+    
+    top: 110px;
+    left: 140px;
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 28px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+
+}
+.img4{
+    margin-right: 5px;
+    position: relative;
+}
+.img4 h3{
+    position: absolute;
+    
+    top: 110px;
+    left: 140px;
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 28px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+
+}
+.img5{
+    position: relative;
+}
+.img5 h3{
+    position: absolute;
+    
+    top: 110px;
+    left: 80px;
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 28px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+
+
+  
+
 
 
 @media screen and (max-width:600px){
+    header{
+        margin: 20px 60px;
+    }
     .bars>a i{
         display: block;
     }
@@ -113,7 +342,7 @@ border: 0;
         background-repeat: no-repeat;
         
        
-        margin: 0px 100px;
+        margin: 0px 50px;
         border-radius: 15px;
     }
     .input-box{
@@ -125,7 +354,7 @@ height: 260px;
 flex-direction: column;
 align-items: flex-start;
 gap: 16px;
-margin: 0px 0px 0px 23px;
+margin: 0px 0px 0px 73px;
     }
     .banner-tagline{
         text-align: center;
@@ -134,13 +363,234 @@ margin: 0px 0px 0px 23px;
     }
     .input-box input{
     
-        width: 200px;
+        width: 250px;
     height: 52px;
     flex-shrink: 0;
     border-radius: 8px;
     background: #FFF;
     border: 0;
-    margin-left:-13px;
+    margin-left:-37px;
+    }
+    input[type=text]{
+        background-image: url(../images/Frame.svg);
+        background-repeat: no-repeat;
+        background-position: top right;
+        background-position-y: center;
+       
+       padding-left: 5px;
+        
+    
+    }
+    .btn-find{
+        width: 250px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: 0;
+    margin-left: -37px;
+    }
+    .popular{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .popular-description{
+        width: 477px;
+        margin: 10px 50px;
+    }
+    .popular-image img{
+        height: 400px;
+        width: 490px;
+        border-radius: 15px;
+        margin-left: 5px;
+        margin-top: 40px;
+     }
+     .choose-img-section{
+        margin-left: 0px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .row1{
+        display: flex;
+        flex-direction: column;
+        margin: 5px 57px;
+        
+    }
+    .row2{
+        display: flex;
+        flex-direction: column;
+        margin: 5px 57px;
+        
+    }
+    .row3{
+        display: flex;
+        flex-direction: column;
+        margin: 5px 57px;
+    }
+    .img1 img{
+        width: 450px;
+        height: 300px;
+        margin-bottom: 9px;
+    }
+    .img2 img{
+        width: 450px;
+        height: 300px;
+        
+    }
+    .img3 img{
+        width: 450px;
+        height: 300px;
+        margin-bottom: 9px;
+    }
+    .img4 img{
+        width: 450px;
+        height: 300px;
+        margin-bottom: 9px;
+        
+    }
+    .img5 img{
+        width: 450px;
+        height: 300px;
+        
+    }
+    .img6 img{
+        width: 450px;
+        height: 300px;
+        
+    }
+    .img7 img{
+        width: 450px;
+        height: 300px;
+        margin-bottom: 9px;
+        
+    }
+    .img1{
+        margin-right: 0px ;
+        position: relative;
+    }
+    .img2{
+        margin-right: 0px ;
+        position: relative;
+    }
+    .img3{
+        margin-right: 0px;
+        position: relative;
+    }
+    .img4{
+        margin-right: 0px;
+        position: relative;
+    }
+    .img5{
+        margin-right: 0px;
+        position: relative;
+    }
+    .img6{
+        margin-right: 0px;
+        position: relative;
+    }
+    .img7{
+        margin-right: 0px;
+        position: relative;
+    }
+    
+    .img1 h3{
+        position: absolute;
+        
+        top: 110px;
+        left: 170px;
+        color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    }
+    .img2 h3{
+        position: absolute;
+        
+        top: 110px;
+        left: 170px;
+        color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    }
+    .img3 h3{
+        position: absolute;
+        
+        top: 110px;
+        left: 170px;
+        color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    }
+    .img4 h3{
+        position: absolute;
+        
+        top: 110px;
+        left: 150px;
+        color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    }
+    .img5 h3{
+        position: absolute;
+        
+        top: 110px;
+        left: 170px;
+        color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    }
+    .img6 h3{
+        position: absolute;
+        
+        top: 110px;
+        left: 160px;
+        color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    }
+    .img7 h3{
+        position: absolute;
+        
+        top: 110px;
+        left: 160px;
+        color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
     }
    
 }
