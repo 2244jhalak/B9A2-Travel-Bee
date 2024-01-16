@@ -78,7 +78,7 @@ background: #FFF;
 border: 0;
 margin-left: 0px;
 }
-input[type=text]{
+input[type=number]{
     background-image: url(../images/Frame.svg);
     background-repeat: no-repeat;
     background-position: top right;
@@ -216,11 +216,11 @@ line-height: normal;
 
 
 .img1 img{
-    width: 561px;
+    width: 100%;
     height: 300px;
 }
 .img2 img{
-    width: 561px;
+    width: 120%;
     height: 300px;
 }
 .row2{
@@ -238,7 +238,7 @@ line-height: normal;
     position: relative;
 }
 .img7 img{
-    width: 470px;
+    width: 100%;
     height: 300px;
 }
 .img7 h3{
@@ -254,13 +254,22 @@ font-style: normal;
 font-weight: 800;
 line-height: normal;
 }
+.img3 img{
+    width: 100%;
+}
+.img4 img{
+    width: 100%;
+}
+.img5 img{
+    width: 100%;
+}
 .img6{
     
     position: relative;
     margin-right: 0px;
 }
 .img6 img{
-    width: 665px;
+    width: 100%;
     height: 300px;
 }
 .img6 h3{
@@ -328,11 +337,198 @@ font-style: normal;
 font-weight: 800;
 line-height: normal;
 }
+.why> h3{
+    text-align: center;
+}
+.why >p{
+    text-align: center;
+}
+.flex{
+    display: flex;
+   
+}
+
+.price{
+    width: 45%;
+    margin:40px auto;
+    border: 0;
+height: 310px;
+flex-shrink: 0;
+border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+}
+.price> img{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.price>h3{
+    color: #131318;
+    margin-left: 10px;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.price>p{
+    color: #5A5A5D;
+    margin-left: 10px;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+}
+.hotels> h3{
+    color: #131318;
+margin-left: 10px;
+font-family: Mulish;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.service> h3{
+    color: #131318;
+    margin-left: 10px;
+
+font-family: Mulish;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.service>p{
+    margin-left: 10px;
+
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+.service>ul>li{
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-left: 10px;
+
+}
+.hotels>p{
+    color: #5A5A5D;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+margin-left: 10px;
+
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+.hotels{
+    width: 45%;
+    height: 310px;
+    margin:0 50px;
+    border: 0;
+    
+    flex-shrink: 0;
+    border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+}
+.hotels img{
+margin-left: 10px;
+margin-top: 10px;
+}
+.service img{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.service{
+    width: 45%;
+    border: 0;
+    height: 310px;
+    margin-right: auto;
+    flex-shrink: 0;
+    border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+}
+.news{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.newsletter{
+    width: 30%;
+    margin-left: 180px;
+    margin-right: 50px;
+    padding-left: 20px;
+    padding-top: 20px;
+height: 300px;
+flex-shrink: 0;
+border-radius: 16px;
+border: 1px solid #FF5400;
+}
+.newsletter input{
+    width: 90%;
+    height: 42px;
+    margin-bottom: 10px;
+flex-shrink: 0;
+border-radius: 8px;
+background: rgba(19, 19, 24, 0.05);
+border: 1px solid rgba(19, 19, 24, 0.05);
+    
+}
+.discount{
+    width: 60%;
+    position: relative;
+    
+}
+.discount img{
+    height: 320px;
+   
+}
+.btn-save{
+    position: absolute;
+    right: 180px;
+    bottom: 30px;
+    width: 150px;
+height: 50px;
+transform: rotate(-19.628deg);
+flex-shrink: 0;
+border-radius: 6px;
+background: #FF5400;
+border: 0;
+}
+.extra>ul{
+    border: 0;
+    background-color: gainsboro;
+    margin: 0px 20px;
+    padding: 20px 10px;
+    border-radius: 15px;
+}
+.extra>ul>li{
+    text-align: center;
+    list-style: none;
+    font-size: 20px;
+}
+
+
 
 footer{
     background-color:gainsboro;
     text-align: center;
     padding: 10px 0px;
+}
+.hidden{
+    display: none;
 }
 
   
@@ -340,6 +536,179 @@ footer{
 
 
 @media screen and (max-width:600px){
+    .why> h3{
+        text-align: center;
+    }
+    .why >p{
+        text-align: center;
+    }
+    .flex{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    
+    .price{
+        width: 100%;
+        margin:40px auto;
+        border: 0;
+    height: 310px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    }
+    .price> img{
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .price>h3{
+        color: #131318;
+        margin-left: 10px;
+        font-family: Mulish;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+    .price>p{
+        color: #5A5A5D;
+        margin-left: 10px;
+        font-family: Mulish;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px; 
+    }
+    .hotels> h3{
+        color: #131318;
+    margin-left: 10px;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    }
+    .service> h3{
+        color: #131318;
+        margin-left: 10px;
+    
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    }
+    .service>p{
+        margin-left: 10px;
+    
+        color: #5A5A5D;
+        font-family: Mulish;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px; /* 162.5% */
+    }
+    .service>ul>li{
+        color: #5A5A5D;
+        font-family: Mulish;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        margin-left: 10px;
+    
+    }
+    .hotels>p{
+        color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    margin-left: 10px;
+    
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    }
+    .hotels{
+        width: 100%;
+        height: 320px;
+        margin:20px 0px;
+        border: 0;
+        
+        flex-shrink: 0;
+        border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    }
+    .hotels img{
+    margin-left: 10px;
+    margin-top: 10px;
+    }
+    .service img{
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .service{
+        width: 100%;
+        border: 0;
+        height: 320px;
+        margin-right: auto;
+        flex-shrink: 0;
+        border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    }
+    .news{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        
+    }
+    
+    .newsletter{
+        width: 50%;
+        margin-left: 150px;
+        margin-right: 50px;
+        padding-left: 20px;
+        padding-top: 20px;
+    height: 320px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    margin-bottom: 10px;
+    }
+    .newsletter input{
+        width: 90%;
+        height: 42px;
+        margin-bottom: 10px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: 1px solid rgba(19, 19, 24, 0.05);
+        
+    }
+    .discount{
+        width: 60%;
+        position: relative;
+        
+    }
+    .discount img{
+        height: 320px;
+       
+    }
+    .btn-save{
+        position: absolute;
+        right: -170px;
+        bottom: 30px;
+        width: 150px;
+    height: 50px;
+    transform: rotate(-19.628deg);
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: #FF5400;
+    border: 0;
+    }
     header{
         margin: 0px 80px;
     }
@@ -354,7 +723,7 @@ footer{
         background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url(../images/Group-13.png);
         background-repeat: no-repeat;
         width: 400px;
-height: 500px;
+height: 520px;
 flex-shrink: 0;
        
         margin: 0px auto;
@@ -370,6 +739,7 @@ flex-direction: column;
 align-items: flex-start;
 gap: 16px;
 margin: 0px 0px 0px 43px;
+
     }
     .banner-tagline{
         text-align: center;
@@ -609,9 +979,100 @@ margin: 0px 0px 0px 43px;
     }
    
 }
-@media screen and (min-width:600px) and (max-width:992px){
+@media screen and (min-width:992px) and (max-width:1300px){
+    .hotels{
+        width: 45%;
+        height: 310px;
+        margin:0 50px;
+        border: 0;
+        
+        flex-shrink: 0;
+        border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    }
+    .extra>ul{
+        border: 0;
+        background-color: gainsboro;
+        
+        padding: 20px 10px;
+        border-radius: 15px;
+    }
+    .extra>ul>li{
+        text-align: center;
+        list-style: none;
+        font-size: 20px;
+    }
+    .news{
+        display: flex;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        
+    }
+    
+    .newsletter{
+        width: 30%;
+        margin-left: 70px;
+        margin-right: 20px;
+        padding-left: 20px;
+        padding-top: 20px;
+    height: 320px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    }
+    .newsletter input{
+        width: 90%;
+        height: 42px;
+        margin-bottom: 10px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: 1px solid rgba(19, 19, 24, 0.05);
+        
+    }
+    .discount{
+        width: 60%;
+        position: relative;
+        
+    }
+    .discount img{
+        height: 340px;
+       
+    }
+    .btn-save{
+        position: absolute;
+        right: 20px;
+        bottom: 30px;
+        width: 150px;
+    height: 50px;
+    transform: rotate(-19.628deg);
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: #FF5400;
+    border: 0;
+    }
     header{
-        margin: 20px 0px;
+        margin:10px 50px;
+        
+        
+    }
+    nav>ul li{
+        list-style: none;
+        padding-right: 25px;
+    }
+    
+    nav>ul li>a{
+        text-decoration: none;
+        color: black;
+    }
+    nav>ul{
+        display: flex;
+    }
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
     }
     .bars>a i{
         display: none;
@@ -626,7 +1087,7 @@ margin: 0px 0px 0px 43px;
         
         width: 550px;
         height: 470px;
-        margin: 0px 0px;
+        margin: 0px 230px;
         border-radius: 15px;
     }
     .input-box{
@@ -683,7 +1144,7 @@ margin: 0px 0px 0px 113px;
     }
     .popular{
         display: flex;
-        flex-direction: column;
+        
         align-items: center;
     }
     .popular-description{
@@ -702,86 +1163,28 @@ margin: 0px 0px 0px 113px;
         display: grid;
         grid-template-columns: repeat(1,1fr);
     }
+    .choose{
+   
+        text-align: center;
+    }
+    .choose h3{
+        text-align: center;
+    }
+    .choose p{
+        text-align: center;
+    }
+    .choose-img-section{
+        margin-left: 0px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
     .row1{
         display: flex;
-        flex-direction: column;
-        margin: 5px 57px;
-        
-    }
-    .row2{
-        display: flex;
-        flex-direction: column;
-        margin: 5px 57px;
-        
-    }
-    .row3{
-        display: flex;
-        flex-direction: column;
-        margin: 5px 57px;
-    }
-    .img1 img{
-        width: 450px;
-        height: 300px;
-        margin-bottom: 9px;
-    }
-    .img2 img{
-        width: 450px;
-        height: 300px;
-        
-    }
-    .img3 img{
-        width: 450px;
-        height: 300px;
-        margin-bottom: 9px;
-    }
-    .img4 img{
-        width: 450px;
-        height: 300px;
-        margin-bottom: 9px;
-        
-    }
-    .img5 img{
-        width: 450px;
-        height: 300px;
-        
-    }
-    .img6 img{
-        width: 450px;
-        height: 300px;
-        
-    }
-    .img7 img{
-        width: 450px;
-        height: 300px;
-        margin-bottom: 9px;
+        margin: 5px 95px;
         
     }
     .img1{
-        margin-right: 0px ;
-        position: relative;
-    }
-    .img2{
-        margin-right: 0px ;
-        position: relative;
-    }
-    .img3{
-        margin-right: 0px;
-        position: relative;
-    }
-    .img4{
-        margin-right: 0px;
-        position: relative;
-    }
-    .img5{
-        margin-right: 0px;
-        position: relative;
-    }
-    .img6{
-        margin-right: 0px;
-        position: relative;
-    }
-    .img7{
-        margin-right: 0px;
+        margin-right: 10px;
         position: relative;
     }
     
@@ -798,6 +1201,10 @@ margin: 0px 0px 0px 113px;
     font-weight: 800;
     line-height: normal;
     }
+    .img2{
+        margin-right: 0px;
+        position: relative;
+    }
     .img2 h3{
         position: absolute;
         
@@ -811,11 +1218,39 @@ margin: 0px 0px 0px 113px;
     font-weight: 800;
     line-height: normal;
     }
-    .img3 h3{
+    
+    
+    .img1 img{
+        width: 100%;
+        height: 300px;
+    }
+    .img2 img{
+        width: 120%;
+        height: 300px;
+    }
+    .row2{
+        display: flex;
+        margin: 5px 90px;
+        
+    }
+    .row3{
+        display: flex;
+        margin: 5px 89px;
+    }
+    .img7{
+        margin-right: 5px;
+        
+        position: relative;
+    }
+    .img7 img{
+        width: 100%;
+        height: 300px;
+    }
+    .img7 h3{
         position: absolute;
         
         top: 110px;
-        left: 170px;
+        left: 110px;
         color: #FFF;
     text-align: center;
     font-family: Mulish;
@@ -824,31 +1259,23 @@ margin: 0px 0px 0px 113px;
     font-weight: 800;
     line-height: normal;
     }
-    .img4 h3{
-        position: absolute;
-        
-        top: 110px;
-        left: 150px;
-        color: #FFF;
-    text-align: center;
-    font-family: Mulish;
-    font-size: 28px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
+    .img3 img{
+        width: 100%;
     }
-    .img5 h3{
-        position: absolute;
+    .img4 img{
+        width: 100%;
+    }
+    .img5 img{
+        width: 100%;
+    }
+    .img6{
         
-        top: 110px;
-        left: 170px;
-        color: #FFF;
-    text-align: center;
-    font-family: Mulish;
-    font-size: 28px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
+        position: relative;
+        margin-right: 0px;
+    }
+    .img6 img{
+        width: 100%;
+        height: 300px;
     }
     .img6 h3{
         position: absolute;
@@ -863,11 +1290,50 @@ margin: 0px 0px 0px 113px;
     font-weight: 800;
     line-height: normal;
     }
-    .img7 h3{
+    .img3{
+        margin-right: 5px;
+        position: relative;
+    }
+    .img3 h3{
         position: absolute;
         
-        top: 110px;
-        left: 160px;
+        top: 60px;
+        left: 80px;
+        color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    
+    }
+    .img4{
+        margin-right: 5px;
+        position: relative;
+    }
+    .img4 h3{
+        position: absolute;
+        
+        top: 60px;
+        left: 80px;
+        color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    
+    }
+    .img5{
+        position: relative;
+    }
+    .img5 h3{
+        position: absolute;
+        
+        top: 60px;
+        left: 40px;
         color: #FFF;
     text-align: center;
     font-family: Mulish;
